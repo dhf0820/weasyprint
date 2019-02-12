@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk --update --upgrade add bash cairo pango gdk-pixbuf py3-cffi py3-pillow py-lxml \
+RUN apk --update --upgrade add bash ttf-dejavu cairo pango gdk-pixbuf py3-cffi py3-pillow py-lxml \
         ttf-font-awesome \
             --no-cache \
             --repository http://dl-3.alpinelinux.org/alpine/edge/testing

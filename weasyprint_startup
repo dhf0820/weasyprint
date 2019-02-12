@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -d --rm --name weasyprint -p 5001:5001 dhf0820/weasyprint:1.0
